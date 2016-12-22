@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Material Design for Bootstrap</title>
+
+    <!-- Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="vendor/bootstrap/css/mdb.css" rel="stylesheet">
+    
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/creative.min.css" rel="stylesheet">
+
+</head>
+
+<body class="background-body">
+
+<div id="test" class="background-body container-fluid">
+    <div class="row">
+            <div class="col-xs-3 col-md-3 col-lg-3"></div>
+            <div class="card hoverable col-xs-6 col-md-6 col-lg-6 center-block animated fadeInLeft">
+               <div class="form-header indigo darken-4">
+                            <h4><i class="fa fa-sign-in"></i> JE REJOINS LE RHC</h4>
+                </div>
+                <div class="card-content">
+                    <form data-toggle="validator" data-delay="2000" role="form">
+                        <div class="row">
+                            <div class="form-group input-field col-md-6">
+                                <i class="fa fa-user prefix"></i>
+                                <input id="nom" type="text" class="form-control" required>
+                                <label for="nom">Nom</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group input-field col-md-6">
+                                <i class="fa fa-user-plus prefix"></i>
+                                <input id="prenom" type="text" class="form-control" required>
+                                <label for="prenom">Prénom</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group input-field col-md-12">
+                                <i class="fa fa-envelope prefix"></i>
+                                <input id="email" type="email" class="form-control" required>
+                                <label for="email">Email</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group input-field col-md-12">
+                                <i class="fa prefix"></i>
+                                <input id="emailConf" type="email" data-match="#email" data-match-error="Email différent" class="form-control" required>
+                                <label for="emailConf">Confirmation email</label>
+                                 <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group input-field col-md-12">
+                                <i class="fa fa-phone prefix"></i>
+                                <input id="tel" type="number" data-minlength="10" data-error="Numéro de téléphone invalide" class="form-control" required>
+                                <label for="tel">Téléphone</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group input-field col-md-6">
+                                <i class="fa fa-lock prefix"></i>
+                                <input id="inputPassword" data-minlength="6" data-error="6 caractères minimum" class="form-control" type="password" required>
+                                <label for="inputPassword">Mot de passe</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group input-field col-md-6">
+                                <i class="fa prefix"></i>
+                                <input id="passconfirm" type="password" class="form-control" id="passwordConfirm" data-match="#inputPassword" data-match-error="Mot de passe différent" required>
+                                <label for="passconfirm">Confirmation</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="form-group card-btn text-center">
+                            <button type="submit" data-disable="true" class="btn btn-primary btn-xl waves-effect waves-light">Je m'inscris !</button>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+  
+    </div>
+</div>
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="vendor/bootstrap/js/jquery.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="vendor/bootstrap/js/validator.js"></script>
+
+    <!-- Material Design Bootstrap -->
+    <script type="text/javascript" src="vendor/bootstrap/js/mdb.js"></script>
+
+    
+</body>
+
+</html>
