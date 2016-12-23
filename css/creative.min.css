@@ -61,7 +61,7 @@ p {
 }
 .bg-primary {
     background-color: #000000;
-    background-image: url(../img/content.png);
+    background-image: url(../img/home-about-back.jpg);
 }
 .bg-dark {
     background-color: #222;
@@ -221,14 +221,29 @@ header .header-content .header-content-inner p {
         margin-right: auto
     }
 }
+.fa-3 {
+    font-size: 2em;
+}
+table{
+    color: black;
+    background-color: #fff;
+
+}
 .back-header{
       background-color: rgba(225,222,255,0.8);
       border-radius: 10px;
       padding-bottom: 20px
 }
 .back-content{
-      background-color: rgba(225,222,255,0.8);
-      padding-bottom: 50px
+    color: #fff;
+    background: url(../img/home-inscription.jpg) no-repeat center;  
+}
+.back-content2{
+    color: #fff;
+    background-color: lightgrey; 
+}
+.list-group-item {
+    color: #000000;
 }
 .section-heading {
     margin-top: 0
